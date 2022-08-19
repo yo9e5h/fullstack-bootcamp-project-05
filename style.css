@@ -1,0 +1,94 @@
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.logo{
+  height: 2rem;
+}
+
+.line{
+  background-color: #ffffff;
+  height: 3rem;
+  width: 1px;
+  position: absolute;
+  left: 250px;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 12rem 0 0;
+
+}
+
+.list-item{
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+.button-small{
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #B90EC5;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 4rem;
+}
+
+.hero{
+  background: url(./assets/bg.png) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-heading{
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 4rem 16rem 0 16rem;
+  letter-spacing: 10%;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+.hero-description{
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 0 16rem;
+  line-height: 120%;
+  float: top;
+}
+
+.button-large{
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #B90EC5;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 4rem;
+margin-top: 2rem;
+  margin-bottom: 14rem;
+}
